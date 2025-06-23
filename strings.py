@@ -1,6 +1,0 @@
-str=input("enter the sentence: ")
-print(str[::-1])
-print(str.lower())
-print(str.upper())
-print(str.swapcase())
-print(str.startswith("a"))
