@@ -1,0 +1,11 @@
+Stacks are simple data structures allow us to store and retrieve data sequantially.
+It is an Abstract Data type(ADT).
+Follows LIFO--->Lat In First Out.
+
+OPERATIONS:-
+--------------
+INSERTION -->push
+DELETION---> pop 
+LOOK AT TOP ITEM ---->peek
+CEHCK IF STACK IS EMPTY--->is_empty
+
