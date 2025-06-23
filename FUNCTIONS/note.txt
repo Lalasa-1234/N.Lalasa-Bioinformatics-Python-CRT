@@ -1,0 +1,81 @@
+types of functions:-
+            user-defined
+            built-in
+            lamda(can create function without using def keyword)
+            recursion
+
+syntax:without parameters
+def function_name():
+    local variable
+    block of statements
+    return(variable or expression)
+
+syntax:with parameters
+def function_name(para1,para2):
+    local variable
+    block of statements
+    return(variable or expression)
+
+    w.a.p.p to check wether the user givrn integer is even or odd using functions.
+    w.a.p.p to check wether the user given num is prime or not (using return)
+    w.a.p.p to buld a function ehich prints the multiplication table o f
+
+formal arguments-the values which v give to the function decleration or definition (a,b,name,)
+actual arguments-the functions/values of parametrs
+        eg:- def add(x,y) --->formal arguments
+                c=x+y
+                print(c)
+            add(4,6)----->actual arguments
+
+
+types of actual arguments:-
+positional arguments:-
+             eg:def add(x,y) 
+                    c=x+y
+                    print(c)
+                add(4,6)
+keyword arguments:-
+            eg: def show(name,age):
+                    print(name,age)
+                show(name='kiran',age='25')
+default arguments:-
+            eg:- def show(name,age=27):
+                    print(name,age)
+                show(name='ram',age=62)
+variable length arguments:-
+            eg:-def display(*x):
+                    x=x[0]+x[1]+x[2]+x[3]+x[4]+x[5]+x[6]
+                    print(x)
+                display(10,10,10,10,10,10,10)
+key variable length arguments:-
+            eg:-def add(**num):
+                    z=num['a']+num['b']+num['c']
+                    print(z)
+                add(a=1,b=2,c=3)
+
+
+considder u r self as hr operation manager in vignan software solutions u will be recieving applications from the candidates for multiple roles 
+you are having a list of job roles write a :
+1.view the candidate applications(short listed appliation,job role)
+2.based on your evaluation on cv's of candiates print wether his/her cv is shortlisted or not
+3.schedule a interview for the   shoetlisted candidates 
+4.send a msg tho the candidate to update the status of the level-1 interview feedback and inform wether they are qualified or not for further level
+5.send an offer letter to the shorlisted candidates
+
+#data member
+container that hold or stores the valure:- 1.constants 2.variable
+
+#variable shadowing:-dominance of local variable over the global variable while having a similar senerio
+greet="good morning"
+def display():
+    greet="good afternoon"
+    print(greet)
+display()
+
+LAMBDA functions:-
+syntax:-lamdba arguments_list:expression
+lambda x,y:x+y
+res=lambda a:print(a) 
+w.a.p.p to print the addition of two numbers using lambda functions
+w.a.p.p to check wether the number is positive or negetive using lambda functions
+w.a.p.p to write a lambda function which prints good students if branch is bi else bad students

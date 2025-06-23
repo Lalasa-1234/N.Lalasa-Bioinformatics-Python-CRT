@@ -1,0 +1,2 @@
+DESTRUCTOR:- the __del__ method is called a destructor 
+it is helprd for cleanup actions
