@@ -1,0 +1,12 @@
+Time Complexity : Bubble sort --> O(n^2) Worst Case
+                  Merge Sort  --> O(n log n)
+                  Quick Sort  --> O(n log n) Best case 
+                                  O(n ^2) Worst Case
+
+COMPREHENSION:- it contains very compact codes ususally a single statements that performs task.
+LIST COMPREHENSION :- REPRESENTS CREATION OF NEW LIST from an iterable objects that satisfys the given condition .
+SYNTAX:- list=[ii+1 for i in range(20)]
+        list1=[i for in range(20) if %2==0]
+        list2=[i for in range(11) if %2==0 if %3==0]
+SET COMPREHENSION 
+DICTIONARY COMPREHENSION
